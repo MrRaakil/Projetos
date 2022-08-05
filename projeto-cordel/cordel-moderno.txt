@@ -65,3 +65,51 @@ Se quiser, faça esse teste
 Dois pontos são dois joelhos
 Seus lábios são aparelhos
 Deixe que Deus interprete.
+
+
+* caso eu precise *
+
+header{
+    background-color: #000;
+    color: #fff;
+    min-height: 150px;
+    text-align: center;
+    padding-top: 30px;
+}
+header h1{
+    font-family: var(--font2);
+    font-size: 83px;
+    font-weight: 500;
+}
+header p{
+    font-family: var(--font3);
+    padding-bottom: 30px;
+}
+header a{
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+header a:hover{
+    text-decoration: underline;
+}
+
+main{
+    font-family: var(--font1);
+}
+main section{
+    
+}
+main p{
+    width: 50%;
+    height: 700px;
+    text-align: justify;
+    font-size: 2em;
+    margin: 20px;
+    margin-top: 30%;
+}
+
+.parallax1{
+    background-image: url(/imagens/background001.jpg);
+    background-size: ;
+}
