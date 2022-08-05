@@ -1,6 +1,7 @@
 @charset "UTF-8"
 
-@import url('https://fonts.googleapis.com/css2?family=Lilita+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+
 @import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&display=swap');
 
 *{
@@ -9,7 +10,7 @@
     box-sizing: border-box;
 }
 :root{
-    --font1: 'Lilita One', cursive;
+    --font1: 'Sriracha', cursive;
     --font2: 'Passion One', cursive;
     --font3: Verdana, Geneva, Tahoma, sans-serif;
 }
@@ -41,31 +42,26 @@ header a:hover{
 }
 
 
+
+
+
+
 main{
-    padding: 30px;
-    font-family: var(--font1);
-    font-size: 2em;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 15px;
 }
 main section{
-    height: 700px;
-    width: 94vh;
+    background-color: #fff;
     position: relative;
 }
-main p{
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
+main section p{
+    margin-bottom: 30px;
+    font: italic normal 1.5em var(--font1);
+
 }
 
-.parallax1{
-    background-image: url(/imagens/background001.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center right;
-    background-attachment: fixed;
-    height: 700px;
-    width: 94vh;
-}
+
 
 
 
