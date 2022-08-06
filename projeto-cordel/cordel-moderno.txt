@@ -113,3 +113,4 @@ main p{
     background-image: url(/imagens/background001.jpg);
     background-size: ;
 }
+terminado
