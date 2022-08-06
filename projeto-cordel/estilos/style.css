@@ -1,8 +1,6 @@
-@charset "UTF-8"
+@charset "UTF-8";
 
-@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
-
-@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Passion+One&family=Sriracha&display=swap');
 
 *{
     margin: 0;
@@ -45,23 +43,46 @@ header a:hover{
 
 
 
-
 main{
     margin-top: 50px;
     margin-bottom: 50px;
     margin-left: 15px;
 }
 main section{
-    background-color: #fff;
-    position: relative;
+    min-height: 400px;
+    margin-bottom: 30px;
 }
 main section p{
-    margin-bottom: 30px;
-    font: italic normal 1.5em var(--font1);
+    width: 97vh;
+    height: 500px;
+    font: italic normal 1.8em var(--font1);
 
 }
 
+.parallax1{
+    background-image: url(/projeto-cordel/imagens/background001.jpg);
+    background-size: cover;
+    background-position: center right;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: #fff;
+}
+.parallax1 p{
+    padding-left: 15px;
 
+}
+.parallax2{
+    background-image: url(/projeto-cordel/imagens/background002.jpg);
+    background-size: cover;
+    background-position: center right;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: #fff;
+}
+.parallax2 p{
+    padding-left: 15px;
+
+}
 
 
 
