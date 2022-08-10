@@ -60,7 +60,7 @@ main section p{
 }
 
 .parallax1{
-    background-image: url(/projeto-cordel/imagens/background001.jpg);
+    background-image: url(../imagens/background001.jpg);
     background-size: cover;
     background-position: center right;
     background-repeat: no-repeat;
@@ -72,7 +72,7 @@ main section p{
 
 }
 .parallax2{
-    background-image: url(/projeto-cordel/imagens/background002.jpg);
+    background-image: url(../imagens/background002.jpg);
     background-size: cover;
     background-position: center right;
     background-repeat: no-repeat;
